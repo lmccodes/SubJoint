@@ -1,0 +1,40 @@
+:root {
+  --orange: #FBB03B;
+}
+body {
+ margin: 0;
+ font-family: 'montserrat', sans-serif;
+}
+h2 {
+  font-weight: normal;
+}
+.nav-bar {
+  background-color: black;
+  margin-top: 0;
+  height: 115px;
+  width: 100%;
+
+
+}
+.nav-bar img {
+  height: 100%;
+}
+
+.main-section {
+  background-color: var(--orange);
+  box-sizing: border-box;
+  height: 100vh;
+  margin-top: 0px;
+  padding: 1em;
+
+}
+
+.main-slider {
+  display: table;
+  margin: 0 auto;
+}
+
+/* .slider-img img{
+  width: 75vw;
+  max-width: 600px;
+} */
