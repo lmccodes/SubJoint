@@ -88,7 +88,7 @@ h1 {
 @media screen and (max-width: 600px) {
   .main-grid {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100vw;
     grid-template-rows: auto repeat(6, 70px);
 
   }
