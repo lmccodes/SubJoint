@@ -8,6 +8,11 @@ body {
 }
 .page-layout {
   width: 100vw;
+
+}
+.sections-grid {
+  display: grid;
+  grid-template-rows: auto auto; 
 }
 h1 {
   font-weight: normal;
