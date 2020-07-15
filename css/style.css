@@ -90,6 +90,7 @@ h1 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto repeat(6, 70px);
+
   }
   .grid-pic {
     grid-row: 1 / 2;
@@ -98,6 +99,7 @@ h1 {
   .grid-info {
     margin-left: 0;
     align-self: center;
+
     }
 
   #grid-item1 {
