@@ -85,7 +85,7 @@ h1 {
   min-width: 400px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .main-grid {
     display: grid;
     grid-template-columns: 100vw;
