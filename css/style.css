@@ -93,7 +93,9 @@ h3 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto repeat(5, 70px);
-
+  }
+  .nav-bar img {
+    align-self: center;
   }
   .grid-pic {
     grid-row: 1 / 2;
