@@ -92,7 +92,7 @@ h3 {
   .main-grid {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto repeat(6, 70px);
+    grid-template-rows: auto repeat(5, 70px);
 
   }
   .grid-pic {
