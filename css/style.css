@@ -43,12 +43,12 @@ h3 {
 .nav-bar img {
   height: 175px;
   display: block;
-  margin: 0 auto;
+  margin-left: 0;
 }
 
 .glf-button {
   height: auto;
-  justify-self: center; 
+  justify-self: center;
 }
 .main-section {
   background-color: var(--orange);
@@ -175,12 +175,15 @@ td {
   padding-top: 1em;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     font-size: 1.5em;
   }
   .nav-bar img {
     margin-left: 0;
+    width: 300px;
+    height: auto;
+
 }
   #grid-item2 {
   padding-bottom: 0;
